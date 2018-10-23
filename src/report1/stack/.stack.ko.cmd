@@ -1,0 +1,1 @@
+cmd_/home/vagrant/operation_system_code/src/report1/stack/stack.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.2.0-23-generic/scripts/module-common.lds --build-id  -o /home/vagrant/operation_system_code/src/report1/stack/stack.ko /home/vagrant/operation_system_code/src/report1/stack/stack.o /home/vagrant/operation_system_code/src/report1/stack/stack.mod.o
