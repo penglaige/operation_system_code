@@ -1,0 +1,1 @@
+cmd_/home/vagrant/src/report1/allocator/allocator.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.2.0-23-generic/scripts/module-common.lds --build-id  -o /home/vagrant/src/report1/allocator/allocator.ko /home/vagrant/src/report1/allocator/allocator.o /home/vagrant/src/report1/allocator/allocator.mod.o
